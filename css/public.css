@@ -1,0 +1,300 @@
+/* Site Colors:
+	#1A446C - blue grey
+	#689DC1 - light blue
+	#D4E6F4 - very light blue
+	#EEE4B9 - light tan
+	#8D0D19 - burgundy
+*/
+
+html { height: 100%; width: 100%; }
+body { width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px;
+	font-family: Lucida Fax, Georgia, "Times New Roman", Times, serif, Verdana, Arial, Helvetica, sans-serif; background:#FFC;
+	font-size: 13px; line-height: 15px; background-color:#9F9; }
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img { border: none; }
+h1 { color:#FFFFFF; padding:0em; font-size:40px; font:"Lucida Sans Unicode", "Lucida Grande", sans-serif;}
+h2 { padding:0em; color:#000;}
+a { text-decoration:none;}
+th { font-size:20px; color:#000000;}
+td {color:#000000;}
+header {width:100%; top:0%; height:60px; z-index:2; position:fixed; background-color:#FA0; float:left;}
+.body{width:100%; position:relative; top:60px; z-index:1;}
+.left { margin-right:85%; width:15%; position:absolute;}
+.right {margin-left:90%; width:10%; position:absolute;}
+.main { height:100%; margin-left:15%; margin-right:15%; width:70%; position:absolute;}
+
+footer{ background:#FA0; text-align:center; margin-bottom:0px; height:40px; position:fixed; width:100%; bottom:0px; z-index:1; padding-bottom:0px;}
+.login_form { background-color:#FE9; border-radius:10px; padding:3em}
+.enter_mail { background-color:#FE9; border-radius:10px; padding:3em}
+.signup_form { background-color:#FFEE99;border-radius:10px;}
+.edit_form { background-color:#FFEE99;border-radius:10px;}
+.search { background-color:#FFEE99;border-radius:10px; padding:1em}
+.signin {background-color:#FFEE99;border-radius:10px;}
+.links{ font-size:16px; text-decoration:blink; font-style:normal; padding:3em;}
+.numbers{ font-size:16px; text-decoration:blink; font-style:normal; padding:1em;}
+.links a:hover { background-color:#FFFFCC;}
+.copy { font-size:18px; color:#FFFFFF;}
+.contact{ background-color:#FFEE99;border-radius:10px; padding:2em}
+.details{ background-color:#FFEA99;border-radius:10px; padding:2em}
+.input {
+border: 3px Solid White; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+	height:30px;
+	width:200px;
+	border-radius:10px;
+}
+textarea {
+border: 3px Solid White; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+	border-radius:10px;
+}
+
+#err { color:#FF0000; background-color:#FFF; text-align:center; display:block; border-radius:10px;}
+#error { color:#FF0000; background-color:#FFF; text-align:center; display:block; border-radius:10px;}
+#erroredit { color:#FF0000; background-color:#FFF; text-align:center; display:block; border-radius:10px;}
+
+
+
+A.effectButton, A.effectButton:active, A.effectButton:visited, A.navDev, A.navDev:active, A.navDev:visited
+        {
+            display: block;
+            font-size: 13px;
+            line-height: 26px;
+            text-align: center;
+            background-color: #dadada;
+            color: #EB5100;
+            text-decoration: none;
+            padding: 3px 10px 3px 10px;
+            display: inline;
+            white-space: nowrap;
+        }
+        A.effectButton:hover, A.navDev:hover
+        {
+            color: #EAEAEA;
+            background-color: #EB5100;
+        }
+        A.navDev, A.navDev:active, A.navDev:visited, A.navDev:hover
+        {
+            left:0px;
+            width:255px;
+            line-height:26px;
+            padding: 0px 5px 0px 5px;
+            display: inline-block;
+            text-align: left;
+        }
+
+        .captionOrange, .captionBlack, .captionBlock
+        {
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            filter: inherit;
+        }
+        .captionOrange
+        {
+            background: #EB5100;
+            background-color: rgba(235, 81, 0, 0.6);
+        }
+        .captionBlock
+        {
+        	padding: 10px;
+            text-align: left;
+            line-height: 20px;
+            font-size: 16px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+/*Code for Maps*/
+     /* .controls {
+        margin-top: 16px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #pac-input {
+        background-color: #fff;
+        padding: 0 11px 0 13px;
+        width: 400px;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        text-overflow: ellipsis;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+        margin-left: -1px;
+        padding-left: 14px;  /* Regular padding-left + 1. */
+        width: 201px;
+      }*/
+	  
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+#err { color:#FF0000; background-color:#FFF; text-align:center;}
+#error { color:#FF0000; background-color:#FFF; text-align:center;}
+#main { margin: 0px; padding: 0px; height: 100%; width: 100%; background:#DFD; position:absolute}
+//#left { margin: 0px; padding: 0px; height: 100%; width: 20%; background:#DFD; margin-right:80%; margin-left:0%; position:absolute;}
+//#right { margin: 0px; padding: 0px; height: 100%; width: 20%; background:#DFD; margin-right:0%; margin-left:80%; position:absolute}
+.footer {color:#000; background-color:#FFF;position:relative; height:50px;}
+.clearfooter{ height:50px; clear:both;}
+
+	for navigator
+	nav {
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+}
+	
+	nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+	
+	nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #fefefe 0%, #AFF 100%);  
+	background: -moz-linear-gradient(top, #fefefe 0%, #AFF 100%); 
+	background: -webkit-linear-gradient(top, #fefefe 0%,#AFF 100%); 
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.15);
+	padding: 0 0px;
+	border-radius: 1px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+	
+	nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #4b54Ff;
+		background: linear-gradient(top, #4f59F4 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f59F4 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f59F4 0%,#5f6975 40%);
+	}
+		nav ul li:hover a {
+			color: #fff;
+		}
+	
+	nav ul li a {
+		display: block; padding: 25px 40px;
+		color: #757575; text-decoration: none;
+	}
+	
+	nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 0px solid #6b727c;
+		border-bottom: 0px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+			
+	nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}*/
+	
+	/*end for navigator*/
+
